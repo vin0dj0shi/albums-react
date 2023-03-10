@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 const AlbumsList = (props) => {
   return (
     <>
-      <Navbar page="Add Album" path="/add-album" />
+      <Navbar page="Add Album" path="/albums-react/add-album" />
 
       <div className='albums-list'>
         {props.albums.map((album) => <List album={album} key={album.id} setUpdateAlbum={props.setUpdateAlbum} deleteAlbumFromList={props.deleteAlbumFromList} />)}

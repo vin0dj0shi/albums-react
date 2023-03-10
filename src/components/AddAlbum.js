@@ -13,7 +13,7 @@ const AddAlbum = (props) => {
 
   return (
     <>
-      <Navbar path="/" page="Home" />
+      <Navbar path="/albums-react/" page="Home" />
 
       <div className='addalbum-container'>
         <div className='addalbum-form'>
@@ -27,7 +27,7 @@ const AddAlbum = (props) => {
             <input id='aaform-title-inp' type="text" />
           </div>
           <div>
-            <Link to="/"><button onClick={getAlbumFormData}>Add To List</button></Link>
+            <Link to="/albums-react/"><button onClick={getAlbumFormData}>Add To List</button></Link>
           </div>
         </div>
       </div>

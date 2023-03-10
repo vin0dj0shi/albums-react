@@ -21,7 +21,7 @@ const UpdateAlbum = (props) => {
 
   return (
     <>
-      <Navbar path="/" page="Home" />
+      <Navbar path="/albums-react/" page="Home" />
       <div className='update-album'>
         <div className='form-container'>
           <h4>Title : {props.album.title}</h4>
@@ -36,7 +36,7 @@ const UpdateAlbum = (props) => {
             <input type="number" id='userid-inp'></input>
           </div>
 
-          <Link to='/'><button type='submit' onClick={getUpdateData}>Save</button></Link>
+          <Link to='/albums-react/'><button type='submit' onClick={getUpdateData}>Save</button></Link>
         </div>
       </div>
     </>
